@@ -23,8 +23,8 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 [ALL CONTENTS]
 
 1. Reset
-2. General 
-3. Section 
+2. General
+3. Section
 4. Helper Class
 5. Header
 6. Slider
@@ -1067,7 +1067,7 @@ aside {
     color: var(--lvr-primary-color);
 }
 
-.sidebar .title {    
+.sidebar .title {
     width: 100%;
     margin-top: 0;
     list-style: none;
@@ -1809,7 +1809,7 @@ header .navbar-expand .navbar-brand img {
     border: none;
 }
 
-.navbar-expand .navbar-nav .nav-item a:not(.btn), 
+.navbar-expand .navbar-nav .nav-item a:not(.btn),
 .navbar-expand .navbar-nav .menu-item select {
     display: flex;
     align-items: center;
@@ -1818,7 +1818,7 @@ header .navbar-expand .navbar-brand img {
     cursor: pointer;
 }
 
-.navbar-expand .navbar-nav .nav-link:not(.btn), 
+.navbar-expand .navbar-nav .nav-link:not(.btn),
 .navbar-expand .navbar-nav .menu-item select {
     padding-right: 1rem;
     padding-left: 1rem;
@@ -2277,7 +2277,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .full-slider .inner .center,
-.no-slider .inner .center {    
+.no-slider .inner .center {
     width: 100%;
     padding: 2rem 0;
 }
@@ -2462,12 +2462,12 @@ header .navbar-expand .navbar-brand img {
     max-width: initial;
 }
 
-.full-slider .slide-content .inner .description a, 
+.full-slider .slide-content .inner .description a,
 .no-slider .slide-content .inner .description a {
     font-size: 1.2rem;
 }
 
-.full-slider .slide-content .center .description a, 
+.full-slider .slide-content .center .description a,
 .no-slider .slide-content .center .description a {
     font-size: 1.5rem;
 }
@@ -3659,7 +3659,7 @@ body.switcher-dark-active .dark-and-light-switcher .icon.light {
 
 .btn.smaller, .btn.smaller:active, .btn.smaller:focus {
     width: fit-content;
-    box-sizing: content-box; 
+    box-sizing: content-box;
     margin: 0 5px;
     padding: 7.5px 12.5px;
     display: inline-block;
@@ -3782,13 +3782,13 @@ body.switcher-dark-active .dark-and-light-switcher .icon.light {
     margin-bottom: 0;
 }
 
-.widget-carousel .card {    
+.widget-carousel .card {
     padding: 25px 5px;
     background-color: var(--primary-bg-color-3);
     box-shadow: none;
 }
 
-.body-mode-dark .widget-carousel .card {    
+.body-mode-dark .widget-carousel .card {
     background-color: var(--secondary-bg-color-3);
     box-shadow: none;
 }
@@ -4554,7 +4554,7 @@ footer .copyright a:not(.btn) {
     /* #region Slider */
 
     .full-slider .inner .center,
-    .no-slider .inner .center {    
+    .no-slider .inner .center {
         padding: 0;
     }
 
@@ -4637,7 +4637,7 @@ footer .copyright a:not(.btn) {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -4648,7 +4648,7 @@ footer .copyright a:not(.btn) {
 
     body .card-columns {
         column-count: 3;
-    }    
+    }
 
     body .play-video {
         right: 40px;
@@ -4705,7 +4705,7 @@ footer .copyright a:not(.btn) {
     .elementor .auto-section .gallery.items .item:first-child {
         margin-top: 0;
     }
-    
+
     .elementor .auto-section .gallery.items .item:last-child {
         margin-bottom: 0;
     }
@@ -4728,7 +4728,7 @@ footer .copyright a:not(.btn) {
     body .slider-h-100.alt {
         height: calc(85vh - 50px);
     }
-    
+
     body .full-slider.featured .inner .left:before,
     body .full-slider.featured .inner .left:after,
     body .no-slider.featured .inner .left:before,
@@ -4738,7 +4738,7 @@ footer .copyright a:not(.btn) {
     body .no-slider.featured .inner .right:before,
     body .no-slider.featured .inner .right:after {
         content: none;
-    }   
+    }
 
     /* #endregion Slider */
 
@@ -4767,7 +4767,7 @@ footer .copyright a:not(.btn) {
     body .columns-1 .bricklayer-column-sizer {
         width: 100%;
     }
-    
+
     body .columns-2 .bricklayer-column-sizer,
     body .columns-3 .bricklayer-column-sizer,
     body .columns-4 .bricklayer-column-sizer,
@@ -4787,7 +4787,7 @@ footer .copyright a:not(.btn) {
     body .modal-body {
         align-items: start;
     }
-    
+
     /* #endregion Modal */
 }
 
@@ -4830,11 +4830,11 @@ footer .copyright a:not(.btn) {
         font-size: var(--p-m-size);
         font-weight: var(--p-m-weight);
     }
-    
+
     /* #endregion General */
 
     /* #region Helper Class */
-    
+
     body .intro .btn {
         margin-top: 30px;
     }
@@ -4880,24 +4880,24 @@ footer .copyright a:not(.btn) {
 
     /* #endregion Header */
 
-    /* #region Slider */    
+    /* #region Slider */
 
-    body .full-slider .slide-content .inner .description, 
+    body .full-slider .slide-content .inner .description,
     body .no-slider .slide-content .inner .description {
         max-width: 100%;
         font-size: 1.2rem;
-    }  
+    }
 
-    body .full-slider .slide-content .inner .description p, 
+    body .full-slider .slide-content .inner .description p,
     body .no-slider .slide-content .inner .description p {
         font-size: 1.2rem;
     }
 
-    body .full-slider .slide-content .inner .left, 
+    body .full-slider .slide-content .inner .left,
     body .no-slider .slide-content .inner .left,
-    body .full-slider .slide-content .inner .center, 
+    body .full-slider .slide-content .inner .center,
     body .no-slider .slide-content .inner .center,
-    body .full-slider .slide-content .inner .right, 
+    body .full-slider .slide-content .inner .right,
     body .no-slider .slide-content .inner .right {
         width: 100% !important;
     }
@@ -4933,68 +4933,68 @@ footer .copyright a:not(.btn) {
     body .full-slider .hero-image-left.alt,
     body .no-slider .hero-image-left.alt {
         top: 22%;
-    }   
+    }
 
     .hero-image[data-mask-768="0"],
     .hero-image-left[data-mask-768="0"],
     .full-image[data-mask-768="0"] {
         opacity: 1 !important;
     }
-    
+
     .hero-image[data-mask-768="10"],
     .hero-image-left[data-mask-768="10"],
     .full-image[data-mask-768="10"] {
         opacity: 0.9 !important;
     }
-    
+
     .hero-image[data-mask-768="20"],
     .hero-image-left[data-mask-768="20"],
     .full-image[data-mask-768="20"] {
         opacity: 0.8 !important;
     }
-    
+
     .hero-image[data-mask-768="30"],
     .hero-image-left[data-mask-768="30"],
     .full-image[data-mask-768="30"] {
         opacity: 0.7 !important;
     }
-    
+
     .hero-image[data-mask-768="40"],
     .hero-image-left[data-mask-768="40"],
     .full-image[data-mask-768="40"] {
         opacity: 0.6 !important;
     }
-    
+
     .hero-image[data-mask-768="50"],
     .hero-image-left[data-mask-768="50"],
     .full-image[data-mask-768="50"] {
         opacity: 0.5 !important;
     }
-    
+
     .hero-image[data-mask-768="60"],
     .hero-image-left[data-mask-768="60"],
     .full-image[data-mask-768="60"] {
         opacity: 0.4 !important;
     }
-    
+
     .hero-image[data-mask-768="70"],
     .hero-image-left[data-mask-768="70"],
     .full-image[data-mask-768="70"] {
         opacity: 0.3 !important;
     }
-    
+
     .hero-image[data-mask-768="80"],
     .hero-image-left[data-mask-768="80"],
     .full-image[data-mask-768="80"] {
         opacity: 0.2 !important;
     }
-    
+
     .hero-image[data-mask-768="90"],
     .hero-image-left[data-mask-768="90"],
     .full-image[data-mask-768="90"] {
         opacity: 0.1 !important;
     }
-    
+
     .hero-image[data-mask-768="100"],
     .hero-image-left[data-mask-768="100"],
     .full-image[data-mask-768="100"] {
@@ -5004,7 +5004,7 @@ footer .copyright a:not(.btn) {
     .hero.slider-block .slider-item {
         display: block;
     }
-      
+
     .hero.slider-block .slider-container {
         height: auto;
         min-height: auto;
@@ -5017,7 +5017,7 @@ footer .copyright a:not(.btn) {
     .hero.slider-block .inner {
         padding: 0;
     }
-      
+
     .hero.slider-block .hero-image,
     .hero.slider-block .hero-image img,
     .hero.slider-block .hero-image-left,
@@ -5204,7 +5204,7 @@ footer .copyright a:not(.btn) {
     body .card-columns {
         column-count: 1;
     }
-    
+
     /* #endregion Feature */
 }
 
